@@ -8,10 +8,10 @@ export const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="font-display text-4xl md:text-5xl font-bold">
-            Plan Your Visit
+            Ready to Move In?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get in touch to reserve your peaceful retreat
+            Contact us to book your room and start your college journey with us
           </p>
         </div>
 
@@ -50,11 +50,11 @@ export const Contact = () => {
 
         <Card className="p-12 text-center bg-gradient-to-br from-primary via-primary to-accent text-primary-foreground shadow-elegant">
           <h3 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Ready to Experience The Doon Monks?
+            Start Your College Journey With Us!
           </h3>
           <p className="text-lg mb-8 opacity-95 max-w-2xl mx-auto">
-            Book your stay now and discover the perfect blend of comfort, 
-            community, and mountain serenity.
+            Affordable, comfortable, and study-friendly accommodation for students. 
+            Book your room today and join our student community!
           </p>
           <Button 
             size="lg" 

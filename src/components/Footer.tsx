@@ -11,7 +11,7 @@ export const Footer = () => {
             </div>
             <div>
               <div className="font-display text-xl font-bold">The Doon Monks</div>
-              <div className="text-sm text-muted-foreground">Your Mountain Retreat</div>
+              <div className="text-sm text-muted-foreground">Student Hostel Dehradun</div>
             </div>
           </div>
 

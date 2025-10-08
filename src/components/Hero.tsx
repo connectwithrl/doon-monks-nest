@@ -29,7 +29,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Your peaceful mountain retreat in the heart of Dehradun. Experience comfort, community, and the beauty of the Himalayas.
+            Your perfect student hostel in Dehradun. Study, live, and grow in a peaceful environment designed for college students.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

@@ -1,36 +1,46 @@
-import { Wifi, Droplets, Zap, Coffee, Shield, MapPin } from "lucide-react";
+import { Wifi, Droplets, Zap, BookOpen, Shield, Users, Utensils, GraduationCap } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const facilities = [
   {
     icon: Wifi,
     title: "High-Speed WiFi",
-    description: "Stay connected with reliable, fast internet throughout the hostel",
+    description: "Unlimited high-speed internet for online classes and research",
+  },
+  {
+    icon: BookOpen,
+    title: "Study Rooms",
+    description: "Dedicated quiet study areas for focused learning and exam prep",
+  },
+  {
+    icon: Zap,
+    title: "24/7 Power Backup",
+    description: "Never miss a class or deadline with uninterrupted electricity",
   },
   {
     icon: Droplets,
     title: "Clean Water",
-    description: "24/7 access to purified drinking water and hot water facilities",
+    description: "24/7 purified drinking water and hot water for comfort",
   },
   {
-    icon: Zap,
-    title: "Power Backup",
-    description: "Uninterrupted electricity supply with backup generators",
+    icon: Users,
+    title: "Student Community",
+    description: "Connect with fellow students in common areas and lounges",
   },
   {
-    icon: Coffee,
-    title: "Common Areas",
-    description: "Cozy spaces to relax, work, or socialize with fellow travelers",
+    icon: Utensils,
+    title: "Mess Facilities",
+    description: "Affordable, hygienic meals with options for self-cooking",
   },
   {
     icon: Shield,
-    title: "Secure Storage",
-    description: "Safe lockers and secure storage for your valuables",
+    title: "Secure Living",
+    description: "CCTV surveillance and secure lockers for your belongings",
   },
   {
-    icon: MapPin,
-    title: "Prime Location",
-    description: "Centrally located with easy access to Dehradun's attractions",
+    icon: GraduationCap,
+    title: "Near Colleges",
+    description: "Conveniently located near major colleges and universities",
   },
 ];
 
@@ -40,14 +50,14 @@ export const Facilities = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="font-display text-4xl md:text-5xl font-bold">
-            Modern Facilities for Your Comfort
+            Everything Students Need to Thrive
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need for a comfortable and memorable stay
+            Study-friendly facilities designed for college life
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {facilities.map((facility, index) => {
             const Icon = facility.icon;
             return (

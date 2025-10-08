@@ -7,24 +7,24 @@ export const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight">
-              A Peaceful Haven in the Mountains
+              Your Home Away From Home
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                Welcome to The Doon Monks, where tranquility meets modern comfort. 
-                Nestled in the beautiful city of Dehradun, at the foothills of the 
-                Himalayas, we offer more than just accommodation – we provide an experience.
+                Welcome to The Doon Monks, a student hostel designed for focused learning 
+                and comfortable living. Located in the educational hub of Dehradun, we 
+                understand what students need to succeed in their academic journey.
               </p>
               <p>
-                Inspired by the peaceful wisdom of mountain monks, our hostel combines 
-                serene ambiance with all the amenities modern travelers need. Whether 
-                you're here for adventure, work, or soul-searching, you'll find your 
-                home away from home.
+                Inspired by the discipline and peaceful wisdom of monks, we've created 
+                an environment that balances serious study with community living. Our 
+                hostel provides the perfect blend of quiet study spaces and social areas 
+                where you can connect with fellow students.
               </p>
               <p>
-                Join our community of travelers, digital nomads, and adventure seekers 
-                who've discovered that the best journeys begin with a peaceful mind and 
-                a comfortable place to rest.
+                From high-speed WiFi for online classes to 24/7 power backup for those 
+                late-night study sessions, we've thought of everything. Join our growing 
+                community of students who've made The Doon Monks their second home.
               </p>
             </div>
           </div>
