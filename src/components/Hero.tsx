@@ -3,6 +3,13 @@ import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-mountain.jpg";
 
 export const Hero = () => {
+    const scrollToFacilities = () => {
+    const section = document.getElementById("facilities");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -36,6 +43,12 @@ export const Hero = () => {
             <Button 
               size="lg" 
               className="text-lg px-8 py-6 shadow-elegant hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                  window.open(
+                    "https://wa.me/918439606941?text=Hi, I’d like to book a stay at DoonMonks.”",
+                    "_blank"
+                    );
+                }}
             >
               Book Your Stay
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -44,6 +57,7 @@ export const Hero = () => {
               size="lg" 
               variant="outline"
               className="text-lg px-8 py-6 border-2 hover:bg-primary/10 transition-all duration-300"
+              onClick={scrollToFacilities}
             >
               Explore Facilities
             </Button>

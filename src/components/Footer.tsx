@@ -6,9 +6,14 @@ export const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <Mountain className="w-6 h-6 text-primary-foreground" />
-            </div>
+
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="w-18 h-14 object-contain"
+            />
+
+
             <div>
               <div className="font-display text-xl font-bold">The Doon Monks</div>
               <div className="text-sm text-muted-foreground">Student Hostel Dehradun</div>

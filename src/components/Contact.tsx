@@ -33,7 +33,7 @@ export const Contact = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Phone</h3>
             <p className="text-muted-foreground">
-              Coming Soon
+              +91 8439606941
             </p>
           </Card>
 
@@ -60,6 +60,12 @@ export const Contact = () => {
             size="lg" 
             variant="secondary"
             className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+            onClick={() => {
+                  window.open(
+                    "https://wa.me/918439606941?text=Hi, I’d like to book a stay at DoonMonks.”",
+                    "_blank"
+                    );
+                }}
           >
             Book Now
           </Button>
